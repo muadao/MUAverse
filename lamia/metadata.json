@@ -181,7 +181,10 @@
             "description": "",
             "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Pet/LamiaRabbit.glb",
             "type": "model",
-            "category": "Pet"
+            "category": "Pet",
+            "plugins": [
+                "pet()"
+            ]
         },
         {
             "id": "lamia-Stairs",

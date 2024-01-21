@@ -1,0 +1,258 @@
+{
+    "name": "Tateman",
+    "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/objecticon.png",
+    "description": "",
+    "buildobjects": [
+        {
+            "id": "tateman-BluePlanet",
+            "name": "BluePlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-BluePurplePlanet",
+            "name": "BluePurplePlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePurplePlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePurplePlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-FloorLights",
+            "name": "FloorLights",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/FloorLights.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/FloorLights.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-GreenPlanet",
+            "name": "GreenPlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/GreenPlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/GreenPlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-RedPlanet",
+            "name": "RedPlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/RedPlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/RedPlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-SandPlanet",
+            "name": "SandPlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/SandPlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/SandPlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-TableLight",
+            "name": "TableLight",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/TableLight.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/TableLight.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-WhitePlanet",
+            "name": "WhitePlanet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/WhitePlanet.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/WhitePlanet.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "tateman-EnergyExtractor",
+            "name": "EnergyExtractor",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/EnergyExtractor.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/EnergyExtractor.glb",
+            "type": "model",
+            "category": "Facility"
+        },
+        {
+            "id": "tateman-TatemanEnergyRockA",
+            "name": "TatemanEnergyRockA",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockA.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockA.glb",
+            "type": "model",
+            "category": "Facility"
+        },
+        {
+            "id": "tateman-TatemanEnergyRockB",
+            "name": "TatemanEnergyRockB",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockB.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockB.glb",
+            "type": "model",
+            "category": "Facility"
+        },
+        {
+            "id": "tateman-TatemanEnergyRockC",
+            "name": "TatemanEnergyRockC",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockC.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockC.glb",
+            "type": "model",
+            "category": "Facility"
+        },
+        {
+            "id": "tateman-FloorBulb",
+            "name": "FloorBulb",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorBulb.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorBulb.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-FloorLamp",
+            "name": "FloorLamp",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorLamp.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorLamp.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-RoundChair",
+            "name": "RoundChair",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/RoundChair.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/RoundChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-SmallCHair",
+            "name": "SmallCHair",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/SmallCHair.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/SmallCHair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-TatemanChair",
+            "name": "TatemanChair",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanChair.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-TatemanLoungeChair",
+            "name": "TatemanLoungeChair",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanLoungeChair.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanLoungeChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-TatemanRoundChair",
+            "name": "TatemanRoundChair",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanRoundChair.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanRoundChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "tateman-TatemanMonkey",
+            "name": "TatemanMonkey",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Pet/TatemanMonkey.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Pet/TatemanMonkey.glb",
+            "type": "model",
+            "category": "Pet",
+            "plugins": [
+                "pet()"
+            ]
+        },
+        {
+            "id": "tateman-BlueGrass",
+            "name": "BlueGrass",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/BlueGrass.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/BlueGrass.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "tateman-GreenGrass",
+            "name": "GreenGrass",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/GreenGrass.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/GreenGrass.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "tateman-LargeGreenGrass",
+            "name": "LargeGreenGrass",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LargeGreenGrass.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LargeGreenGrass.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "tateman-LightGreenGrass",
+            "name": "LightGreenGrass",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LightGreenGrass.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LightGreenGrass.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "tateman-TatemanVehicle",
+            "name": "TatemanVehicle",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Transportation/TatemanVehicle.png",
+            "description": "",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Transportation/TatemanVehicle.glb",
+            "type": "model",
+            "category": "Transportation"
+        }
+    ],
+    "entities": [],
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Space"
+        },
+        {
+            "trait_type": "Model",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/site.glb"
+        },
+        {
+            "trait_type": "Skybox",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/skybox.jpg"
+        },
+        {
+            "trait_type": "Thumbnail",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/objecticon.png"
+        },
+        {
+            "trait_type": "Image",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/portal.png"
+        }
+    ]
+}

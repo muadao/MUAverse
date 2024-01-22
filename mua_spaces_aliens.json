@@ -2,173 +2,176 @@
     "select": {
         "name": "hash",
         "algorithm": "sha256",
-        "salt": "salt",
+        "salt": "mspace",
         "min": 1,
-        "max": 3,
+        "max": 5,
         "odds": {
-            "1": 0.4,
-            "2": 0.4,
-            "3": 0.2
+            "1": 0.2375,
+            "2": 0.2375,
+            "3": 0.2375,
+            "4": 0.2375,
+            "5": 0.05
         }
     },
     "1": {
         "name": "Pyroshades",
-        "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Pyroshades.png",
+        "description": "Combat-Proficient Carbon-Based Species M Space: This is a mysterious space with alien markings, self-luminous spheres marking conquered territories, skeletal staff weapons, and wild spirit plants growing among the skeletons.\nProbability of Acquisition: 23.75% ",
+        "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Pyroshades.png",
         "attributes": [
             {
                 "value": "Space",
                 "trait_type": "Type"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/site.glb",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/site.glb",
                 "trait_type": "Model"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/skybox.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/skybox.jpg",
                 "trait_type": "Skybox"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/thumbnail.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/objecticon.png",
                 "trait_type": "Thumbnail"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/image.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/image.jpg",
                 "trait_type": "Image"
             }
         ],
         "buildobjects": [
             {
                 "id": "space-1-Adansonia tree",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/AdansoniaTree.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/AdansoniaTree.glb",
                 "name": "Adansonia tree",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/AdansoniaTree.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/AdansoniaTree.png",
+                "category": "Plants",
                 "description": ""
             },
             {
                 "id": "space-1-Atrocarpus tree",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/AtrocarpusTree.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/AtrocarpusTree.glb",
                 "name": "Atrocarpus tree",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/AtrocarpusTree.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/AtrocarpusTree.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Bonfire",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Bonfire.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Bonfire.glb",
                 "name": "Bonfire",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Bonfire.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Bonfire.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Coastal cactus",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/CoastalCactus.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/CoastalCactus.glb",
                 "name": "Coastal cactus",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/CoastalCactus.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/CoastalCactus.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Cycle",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Cycle.glb",
                 "name": "Cycle",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Bike.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Bike.png",
+                "category": "Transportation",
                 "description": ""
             },
             {
                 "id": "space-1-Moon lamp",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.glb",
                 "name": "Moon lamp",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Opuntia cactus (2)",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus(2).glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus(2).glb",
                 "name": "Opuntia cactus (2)",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus(2).png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus(2).png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Opuntia cactus",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus.glb",
                 "name": "Opuntia cactus",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Pneuma tree",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/PneumaTree.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/PneumaTree.glb",
                 "name": "Pneuma tree",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/PneumaTree.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/PneumaTree.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Saguaro Cactus",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SaguaroCactus.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SaguaroCactus.glb",
                 "name": "Saguaro Cactus",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SaguaroCactus.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SaguaroCactus.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-1-Sand sofa",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SandSofa.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SandSofa.glb",
                 "name": "Sand sofa",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SandSofa.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SandSofa.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Striped sofa",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/StripedSofa.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/StripedSofa.glb",
                 "name": "Striped sofa",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/StripedSofa.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/StripedSofa.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Thorny lamp",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.glb",
                 "name": "Thorny lamp",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Large Carpet",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Carpet.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Carpet.glb",
                 "name": "Carpet",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Carpet.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Carpet.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-1-Pyroshades Bird",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/PyroshadesBird.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/PyroshadesBird.glb",
                 "name": "PyroshadesBird",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/PyroshadesBird.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/PyroshadesBird.png",
                 "plugins": [
                     "pet()"
                 ],
@@ -179,10 +182,10 @@
         "entities": [
             {
                 "id": "g1zBqLk6",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Bonfire.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Bonfire.glb",
                 "name": "g1zBqLk6",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.6090385913848877,
                     "y": 1.6090385913848877,
@@ -190,7 +193,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -0.063775934278965,
                     "y": -0.2083384096622467,
@@ -206,10 +209,10 @@
             },
             {
                 "id": "uawTRcLC",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.glb",
                 "name": "uawTRcLC",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.1802986860275269,
                     "y": 1.1802986860275269,
@@ -217,7 +220,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 8.819204330444336,
                     "y": -0.039541929960250854,
@@ -233,10 +236,10 @@
             },
             {
                 "id": "UrSW3NKK",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SandSofa.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SandSofa.glb",
                 "name": "UrSW3NKK",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.0018869638442993,
                     "y": 1.0018869638442993,
@@ -244,7 +247,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 3.56304669380188,
                     "y": 0.028727268800139427,
@@ -260,10 +263,10 @@
             },
             {
                 "id": "a9dANS5U",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/LargeCarpet.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/LargeCarpet.glb",
                 "name": "a9dANS5U",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 0.9182982444763184,
                     "y": 0.9182982444763184,
@@ -271,7 +274,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 0.6927469968795776,
                     "y": -0.025118349120020866,
@@ -287,10 +290,10 @@
             },
             {
                 "id": "60VQOa6y",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/StripedSofa.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/StripedSofa.glb",
                 "name": "60VQOa6y",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.1972655057907104,
                     "y": 1.1972655057907104,
@@ -298,7 +301,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -3.658090591430664,
                     "y": -0.11817155033349991,
@@ -314,10 +317,10 @@
             },
             {
                 "id": "hau1eTWM",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Cycle.glb",
                 "name": "hau1eTWM",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -325,7 +328,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 3.5383288860321045,
                     "y": -0.1179945096373558,
@@ -341,10 +344,10 @@
             },
             {
                 "id": "wbPxRjbU",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.glb",
                 "name": "wbPxRjbU",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.3094571828842163,
                     "y": 1.3094571828842163,
@@ -352,7 +355,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 17.643333435058594,
                     "y": 0.2545698881149292,
@@ -368,10 +371,10 @@
             },
             {
                 "id": "RhPdACJr",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.glb",
                 "name": "RhPdACJr",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.1898431777954102,
                     "y": 1.1898431777954102,
@@ -379,7 +382,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 1.697234869003296,
                     "y": -0.195738285779953,
@@ -395,10 +398,10 @@
             },
             {
                 "id": "twYmYhRF",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.glb",
                 "name": "twYmYhRF",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.177425503730774,
                     "y": 1.177425503730774,
@@ -406,7 +409,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -2.362971782684326,
                     "y": -0.14524731040000916,
@@ -422,10 +425,10 @@
             },
             {
                 "id": "JNW1VkMA",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/MoonLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/MoonLamp.glb",
                 "name": "JNW1VkMA",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.100604772567749,
                     "y": 1.100604772567749,
@@ -433,7 +436,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -8.58604907989502,
                     "y": -0.12481702864170074,
@@ -449,10 +452,10 @@
             },
             {
                 "id": "fbrTDGZ4",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.glb",
                 "name": "fbrTDGZ4",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.2049106359481812,
                     "y": 1.2049106359481812,
@@ -460,7 +463,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -7.524306297302246,
                     "y": 0.2200201004743576,
@@ -476,10 +479,10 @@
             },
             {
                 "id": "dcwYYcq9",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.glb",
                 "name": "dcwYYcq9",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.185666561126709,
                     "y": 1.185666561126709,
@@ -487,7 +490,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -18.202850341796875,
                     "y": 0.26181408762931824,
@@ -503,10 +506,10 @@
             },
             {
                 "id": "ukYiTS7X",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/ThornyLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/ThornyLamp.glb",
                 "name": "ukYiTS7X",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.396144151687622,
                     "y": 1.396144151687622,
@@ -514,7 +517,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 0.32381969690322876,
                     "y": -0.17054376006126404,
@@ -530,10 +533,10 @@
             },
             {
                 "id": "E7pLTdCa",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus.glb",
                 "name": "E7pLTdCa",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -541,7 +544,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -4.968785762786865,
                     "y": -0.15288296341896057,
@@ -557,10 +560,10 @@
             },
             {
                 "id": "ueHuakf6",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/SaguaroCactus.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/SaguaroCactus.glb",
                 "name": "ueHuakf6",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 0.797850489616394,
                     "y": 0.797850489616394,
@@ -568,7 +571,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": -7.357231140136719,
                     "y": 0.23911140859127045,
@@ -584,10 +587,10 @@
             },
             {
                 "id": "wWm5MibO",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/OpuntiaCactus2.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/OpuntiaCactus(2).glb",
                 "name": "wWm5MibO",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 1.2890074253082275,
                     "y": 1.2890074253082275,
@@ -595,7 +598,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 5.146127223968506,
                     "y": -0.11649429798126221,
@@ -611,10 +614,10 @@
             },
             {
                 "id": "eST8BpaB",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/Cycle.glb",
                 "name": "eST8BpaB",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "scale": {
                     "x": 0.9691240787506104,
                     "y": 0.9691240787506104,
@@ -622,7 +625,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/pyroshades/objecticon.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
                 "position": {
                     "x": 5.606345176696777,
                     "y": 0.034378692507743835,
@@ -640,153 +643,154 @@
     },
     "2": {
         "name": "Forgians",
-        "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Forgians.png",
+        "description": "Forge-Devoted Modified Species M Space: This space fuses robust technology with formidable strength, crystalline energy, and mechanical elements, highlighted by self-luminous crystals and textured metals.\nProbability of Acquisition: 23.75% ",
+        "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Forgians.png",
         "attributes": [
             {
                 "value": "Space",
                 "trait_type": "Type"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/site.glb",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/site.glb",
                 "trait_type": "Model"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/skybox.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/skybox.jpg",
                 "trait_type": "Skybox"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/thumbnail.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/thumbnail.jpg",
                 "trait_type": "Thumbnail"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/image.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/image.jpg",
                 "trait_type": "Image"
             }
         ],
         "buildobjects": [
             {
                 "id": "space-2-ConsoleTable",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.glb",
                 "name": "ConsoleTable",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-2-Cycle",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.glb",
                 "name": "Cycle",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
+                "category": "Transportation",
                 "description": ""
             },
             {
                 "id": "space-2-FloorLamp",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "FloorLamp",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-2-LoungeBed",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeBed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeBed.glb",
                 "name": "LoungeBed",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeBed.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeBed.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-2-LoungeChair",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.glb",
                 "name": "LoungeChair",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.png",
                 "category": "furniture",
                 "description": ""
             },
             {
                 "id": "space-2-MinecartPlatform",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.glb",
                 "name": "MinecartPlatform",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.png",
+                "category": "Facility",
                 "description": ""
             },
             {
                 "id": "space-2-Mushroom01",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom01.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom01.glb",
                 "name": "Mushroom01",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom01.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom01.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-2-Mushroom02",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom02.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom02.glb",
                 "name": "Mushroom02",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom02.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom02.png",
+                "category": "plants",
                 "description": ""
             },
             {
                 "id": "space-2-OperationalPlatform",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.glb",
                 "name": "OperationalPlatform",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.png",
+                "category": "Facility",
                 "description": ""
             },
             {
                 "id": "space-2-OreOrrange",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreOrrange.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreOrrange.glb",
                 "name": "OreOrrange",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreOrrange.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreOrrange.png",
+                "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "space-2-OreRed",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreRed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreRed.glb",
                 "name": "OreRed",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreRed.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreRed.png",
+                "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "space-2-OresOrrange",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresOrrange.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresOrrange.glb",
                 "name": "OresOrrange",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresOrrange.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresOrrange.png",
+                "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "space-2-OresRed",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresRed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresRed.glb",
                 "name": "OresRed",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresRed.png",
-                "category": "furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresRed.png",
+                "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "space-2-ForgiansBird",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ForgiansBird.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ForgiansBird.glb",
                 "name": "OresRed",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ForgiansBird.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ForgiansBird.png",
                 "plugins": [
                     "pet()"
                 ],
@@ -797,10 +801,10 @@
         "entities": [
             {
                 "id": "2f543dJ7",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.glb",
                 "name": "2f543dJ7",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.png",
                 "scale": {
                     "x": 1.2417688369750977,
                     "y": 1.2417688369750977,
@@ -808,7 +812,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.png",
                 "position": {
                     "x": 18.157045364379883,
                     "y": 0.5276741981506348,
@@ -824,10 +828,10 @@
             },
             {
                 "id": "sLRjiAPd",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.glb",
                 "name": "sLRjiAPd",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.png",
                 "scale": {
                     "x": 1.2742701768875122,
                     "y": 1.2742701768875122,
@@ -835,7 +839,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OperationalPlatform.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OperationalPlatform.png",
                 "position": {
                     "x": -16.519495010375977,
                     "y": 1.02506422996521,
@@ -851,10 +855,10 @@
             },
             {
                 "id": "efzIYZBD",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.glb",
                 "name": "efzIYZBD",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "scale": {
                     "x": 0.6718827486038208,
                     "y": 0.6718827486038208,
@@ -862,7 +866,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "position": {
                     "x": -2.3997113704681396,
                     "y": -0.19926108419895172,
@@ -878,10 +882,10 @@
             },
             {
                 "id": "vZkrGFk2",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.glb",
                 "name": "vZkrGFk2",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.png",
                 "scale": {
                     "x": 0.7067281603813171,
                     "y": 0.7067281603813171,
@@ -889,7 +893,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.png",
                 "position": {
                     "x": -0.28932705521583557,
                     "y": 0.15493954718112946,
@@ -905,10 +909,10 @@
             },
             {
                 "id": "53yLtb0J",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresRed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresRed.glb",
                 "name": "53yLtb0J",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresRed.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresRed.png",
                 "scale": {
                     "x": 0.921688973903656,
                     "y": 0.921688973903656,
@@ -916,7 +920,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresRed.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresRed.png",
                 "position": {
                     "x": 0.25227436423301697,
                     "y": 0.40129488706588745,
@@ -932,10 +936,10 @@
             },
             {
                 "id": "8YIB26Nh",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.glb",
                 "name": "8YIB26Nh",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -943,7 +947,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.png",
                 "position": {
                     "x": -17.49237823486328,
                     "y": 1.5536965131759644,
@@ -959,10 +963,10 @@
             },
             {
                 "id": "XVJkFoXz",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.glb",
                 "name": "XVJkFoXz",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -970,7 +974,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeChair.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeChair.png",
                 "position": {
                     "x": -17.4549503326416,
                     "y": 1.6480194330215454,
@@ -986,10 +990,10 @@
             },
             {
                 "id": "MKIcSRGw",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.glb",
                 "name": "MKIcSRGw",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -997,7 +1001,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.png",
                 "position": {
                     "x": -15.936362266540527,
                     "y": 1.5097684860229492,
@@ -1013,10 +1017,10 @@
             },
             {
                 "id": "0eF9k3cD",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.glb",
                 "name": "0eF9k3cD",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1024,7 +1028,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/ConsoleTable.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/ConsoleTable.png",
                 "position": {
                     "x": -16.0256290435791,
                     "y": 1.5543804168701172,
@@ -1040,10 +1044,10 @@
             },
             {
                 "id": "j91WuzPP",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom02.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom02.glb",
                 "name": "j91WuzPP",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom02.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom02.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1051,7 +1055,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom02.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom02.png",
                 "position": {
                     "x": 19.274320602416992,
                     "y": 0.8574795126914978,
@@ -1067,10 +1071,10 @@
             },
             {
                 "id": "PrKp38UL",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "PrKp38UL",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1078,7 +1082,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "position": {
                     "x": -17.74091148376465,
                     "y": 1.616096019744873,
@@ -1094,10 +1098,10 @@
             },
             {
                 "id": "xSkBzxkQ",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "xSkBzxkQ",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1105,7 +1109,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "position": {
                     "x": -15.371147155761719,
                     "y": 1.5892696380615234,
@@ -1121,10 +1125,10 @@
             },
             {
                 "id": "oCCfSkXh",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "oCCfSkXh",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1132,7 +1136,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "position": {
                     "x": -15.855062484741211,
                     "y": 1.579211950302124,
@@ -1148,10 +1152,10 @@
             },
             {
                 "id": "bkCFWInf",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "bkCFWInf",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1159,7 +1163,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "position": {
                     "x": -17.926910400390625,
                     "y": 1.6021300554275513,
@@ -1175,10 +1179,10 @@
             },
             {
                 "id": "SVjdkdnj",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom01.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom01.glb",
                 "name": "SVjdkdnj",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom01.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom01.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1186,7 +1190,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Mushroom01.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Mushroom01.png",
                 "position": {
                     "x": 16.48629379272461,
                     "y": 0.9103240370750427,
@@ -1202,10 +1206,10 @@
             },
             {
                 "id": "kM3ACDik",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.glb",
                 "name": "kM3ACDik",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "scale": {
                     "x": 0.6585479378700256,
                     "y": 0.6585479378700256,
@@ -1213,7 +1217,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "position": {
                     "x": 5.017330646514893,
                     "y": 0.3212306797504425,
@@ -1229,10 +1233,10 @@
             },
             {
                 "id": "ZTKH8hze",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.glb",
                 "name": "ZTKH8hze",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.png",
                 "scale": {
                     "x": 0.5144190192222595,
                     "y": 0.5144190192222595,
@@ -1240,7 +1244,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/MinecartPlatform.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/MinecartPlatform.png",
                 "position": {
                     "x": -0.0662185326218605,
                     "y": 0.8176653385162354,
@@ -1256,10 +1260,10 @@
             },
             {
                 "id": "sLWPf0Zz",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresOrrange.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresOrrange.glb",
                 "name": "sLWPf0Zz",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresOrrange.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresOrrange.png",
                 "scale": {
                     "x": 0.6111445426940918,
                     "y": 0.6111445426940918,
@@ -1267,7 +1271,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OresOrrange.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OresOrrange.png",
                 "position": {
                     "x": -0.1602202206850052,
                     "y": 0.8569346070289612,
@@ -1283,10 +1287,10 @@
             },
             {
                 "id": "7mMD0pxm",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeBed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeBed.glb",
                 "name": "7mMD0pxm",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeBed.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeBed.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1294,7 +1298,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/LoungeBed.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/LoungeBed.png",
                 "position": {
                     "x": 18.001741409301758,
                     "y": 1.0579999685287476,
@@ -1310,10 +1314,10 @@
             },
             {
                 "id": "1CNBKGcc",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreRed.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreRed.glb",
                 "name": "1CNBKGcc",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreRed.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreRed.png",
                 "scale": {
                     "x": 0.3530134856700897,
                     "y": 0.3530134856700897,
@@ -1321,7 +1325,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreRed.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreRed.png",
                 "position": {
                     "x": 17.82863998413086,
                     "y": 1.5966479778289795,
@@ -1337,10 +1341,10 @@
             },
             {
                 "id": "auW0qs04",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreOrrange.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreOrrange.glb",
                 "name": "auW0qs04",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreOrrange.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreOrrange.png",
                 "scale": {
                     "x": 0.3869808316230774,
                     "y": 0.3869808316230774,
@@ -1348,7 +1352,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/OreOrrange.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/OreOrrange.png",
                 "position": {
                     "x": 17.835243225097656,
                     "y": 1.4466484785079956,
@@ -1364,10 +1368,10 @@
             },
             {
                 "id": "yRyEL9pQ",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.glb",
                 "name": "yRyEL9pQ",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "scale": {
                     "x": 1,
                     "y": 1,
@@ -1375,7 +1379,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/FloorLamp.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/FloorLamp.png",
                 "position": {
                     "x": 19.755008697509766,
                     "y": 1.0958760976791382,
@@ -1391,10 +1395,10 @@
             },
             {
                 "id": "wqmbEswO",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.glb",
                 "name": "wqmbEswO",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "scale": {
                     "x": 0.3818506598472595,
                     "y": 0.3818506598472595,
@@ -1402,7 +1406,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "position": {
                     "x": -4.946755409240723,
                     "y": 0.7401583194732666,
@@ -1418,10 +1422,10 @@
             },
             {
                 "id": "yg6O53hq",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.glb",
                 "name": "yg6O53hq",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "scale": {
                     "x": 0.3818506598472595,
                     "y": 0.3818506598472595,
@@ -1429,7 +1433,7 @@
                 },
                 "plugins": [],
                 "category": "furniture",
-                "imageurl": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/forgians/Cycle.png",
+                "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/forgians/Cycle.png",
                 "position": {
                     "x": -7.552485942840576,
                     "y": 0.8229511976242065,
@@ -1447,45 +1451,46 @@
     },
     "3": {
         "name": "Lamia",
-        "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Lamia.png",
+        "description": "Mysterious Creative Species M Space: This space is adorned with bodily elements, a sacred place where inhabitants believe in the pursuit of ceaseless creation and find true rest in the extinguishing of life's flame.\nProbability of Acquisition: 23.75% ",
+        "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Lamia.png",
         "attributes": [
             {
                 "value": "Space",
                 "trait_type": "Type"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/site.glb",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/site.glb",
                 "trait_type": "Model"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/skybox.jpg",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/skybox.jpg",
                 "trait_type": "Skybox"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Lamia.png",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Lamia.png",
                 "trait_type": "Thumbnail"
             },
             {
-                "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/objecticon.png",
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/image.jpg",
                 "trait_type": "Image"
             }
         ],
         "buildobjects": [
             {
                 "id": "lamia-BlueSphere",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/BlueSphere.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.glb",
                 "name": "BlueSphere",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/BlueSphere.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.png",
                 "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "lamia-Gyro",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/Gyro.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/Gyro.glb",
                 "name": "Gyro",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/Gyro.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/Gyro.png",
                 "category": "Decoration",
                 "description": ""
             },
@@ -1494,160 +1499,160 @@
                 "url": "",
                 "name": "LamiaSemiSphere",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSemiSphere.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSemiSphere.png",
                 "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaSphere",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSphere.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSphere.glb",
                 "name": "LamiaSphere",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSphere.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSphere.png",
                 "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "lamia-PinkSphere",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/PinkSphere.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.glb",
                 "name": "PinkSphere",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/PinkSphere.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.png",
                 "category": "Decoration",
                 "description": ""
             },
             {
                 "id": "lamia-CafeTable",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CafeTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CafeTable.glb",
                 "name": "CafeTable",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CafeTable.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CafeTable.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-CandleLight",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CandleLight.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.glb",
                 "name": "CandleLight",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CandleLight.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-Column",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Column.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Column.glb",
                 "name": "Column",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Column.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Column.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-FloatingLoungeChair",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloatingLoungeChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.glb",
                 "name": "FloatingLoungeChair",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloatingLoungeChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-FloorLamp",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloorLamp.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.glb",
                 "name": "FloorLamp",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloorLamp.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaChair",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaChair.glb",
                 "name": "LamiaChair",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaChair.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaFloorLight",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaFloorLight.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.glb",
                 "name": "LamiaFloorLight",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaFloorLight.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaLoungeChair",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaLoungeChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaLoungeChair.glb",
                 "name": "LamiaLoungeChair",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaLoungeChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaLoungeChair.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaOperationChair",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaOperationChair.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaOperationChair.glb",
                 "name": "LamiaOperationChair",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaOperationChair.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaOperationChair.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-RoundPlatform",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.glb",
                 "name": "RoundPlatform",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-RoundTable",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundTable.glb",
                 "name": "RoundTable",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-SideTable",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/SideTable.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/SideTable.glb",
                 "name": "SideTable",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/SideTable.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/SideTable.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-Sofa",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Sofa.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Sofa.glb",
                 "name": "Sofa",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Sofa.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Sofa.png",
                 "category": "Furniture",
                 "description": ""
             },
             {
                 "id": "lamia-Vehicle",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Vehicle.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Vehicle.glb",
                 "name": "Vehicle",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Vehicle.png",
-                "category": "Furniture",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Vehicle.png",
+                "category": "Transportation",
                 "description": ""
             },
             {
                 "id": "lamia-LamiaRabbit",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Pet/LamiaRabbit.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Pet/LamiaRabbit.glb",
                 "name": "LamiaRabbit",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Pet/LamiaRabbit.png",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Pet/LamiaRabbit.png",
                 "plugins": [
                     "pet()"
                 ],
@@ -1656,11 +1661,286 @@
             },
             {
                 "id": "lamia-Stairs",
-                "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Utility/Stairs.glb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Utility/Stairs.glb",
                 "name": "Stairs",
                 "type": "model",
-                "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Utility/Stairs.png",
-                "category": "Utility",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Utility/Stairs.png",
+                "category": "Facility",
+                "description": ""
+            }
+        ],
+        "entities": []
+    },
+    "4": {
+        "name": "Mysticons",
+        "description": "Enigmatic Scientists Tribe M Space: This space is filled with an ethereal and mystical atmosphere, blending theology, high-dimensional, and airy sensations, with a hint of cosmic tribal mystique and supernatural energy.\nProbability of Acquisition: 23.75% ",
+        "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Mysticons.png",
+        "attributes": [
+            {
+                "value": "Space",
+                "trait_type": "Type"
+            },
+            {
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/image.jpg",
+                "trait_type": "Image"
+            }
+        ],
+        "buildobjects": [],
+        "entities": []
+    },
+    "5": {
+        "name": "Tateman",
+        "description": "Humanoid Artificial Intelligence Species M Space: The space is filled with shimmering crystalline spheres and computer-like blocks emitting immense computational power, captivating all who enter this extraordinary realm.\nProbability of Acquisition: 5%",
+        "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Tateman.png",
+        "attributes": [
+            {
+                "value": "Space",
+                "trait_type": "Type"
+            },
+            {
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/site.glb",
+                "trait_type": "Model"
+            },
+            {
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/skybox.jpg",
+                "trait_type": "Skybox"
+            },
+            {
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/objecticon.png",
+                "trait_type": "Thumbnail"
+            },
+            {
+                "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/image.jpg",
+                "trait_type": "Image"
+            }
+        ],
+        "buildobjects": [
+            {
+                "id": "tateman-BluePlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePlanet.glb",
+                "name": "BluePlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-BluePurplePlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePurplePlanet.glb",
+                "name": "BluePurplePlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/BluePurplePlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-FloorLights",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/FloorLights.glb",
+                "name": "FloorLights",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/FloorLights.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-GreenPlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/GreenPlanet.glb",
+                "name": "GreenPlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/GreenPlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-RedPlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/RedPlanet.glb",
+                "name": "RedPlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/RedPlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-SandPlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/SandPlanet.glb",
+                "name": "SandPlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/SandPlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-TableLight",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/TableLight.glb",
+                "name": "TableLight",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/TableLight.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-WhitePlanet",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/WhitePlanet.glb",
+                "name": "WhitePlanet",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Decoration/WhitePlanet.png",
+                "category": "Decoration",
+                "description": ""
+            },
+            {
+                "id": "tateman-EnergyExtractor",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/EnergyExtractor.glb",
+                "name": "EnergyExtractor",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/EnergyExtractor.png",
+                "category": "Facility",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanEnergyRockA",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockA.glb",
+                "name": "TatemanEnergyRockA",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockA.png",
+                "category": "Facility",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanEnergyRockB",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockB.glb",
+                "name": "TatemanEnergyRockB",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockB.png",
+                "category": "Facility",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanEnergyRockC",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockC.glb",
+                "name": "TatemanEnergyRockC",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Facility/TatemanEnergyRockC.png",
+                "category": "Facility",
+                "description": ""
+            },
+            {
+                "id": "tateman-FloorBulb",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorBulb.glb",
+                "name": "FloorBulb",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorBulb.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-FloorLamp",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorLamp.glb",
+                "name": "FloorLamp",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/FloorLamp.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-RoundChair",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/RoundChair.glb",
+                "name": "RoundChair",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/RoundChair.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-SmallCHair",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/SmallCHair.glb",
+                "name": "SmallCHair",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/SmallCHair.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanChair",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanChair.glb",
+                "name": "TatemanChair",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanChair.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanLoungeChair",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanLoungeChair.glb",
+                "name": "TatemanLoungeChair",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanLoungeChair.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanRoundChair",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanRoundChair.glb",
+                "name": "TatemanRoundChair",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Furniture/TatemanRoundChair.png",
+                "category": "Furniture",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanMonkey",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Pet/TatemanMonkey.glb",
+                "name": "TatemanMonkey",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Pet/TatemanMonkey.png",
+                "plugins": [
+                    "pet()"
+                ],
+                "category": "Pet",
+                "description": ""
+            },
+            {
+                "id": "tateman-BlueGrass",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/BlueGrass.glb",
+                "name": "BlueGrass",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/BlueGrass.png",
+                "category": "Plants",
+                "description": ""
+            },
+            {
+                "id": "tateman-GreenGrass",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/GreenGrass.glb",
+                "name": "GreenGrass",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/GreenGrass.png",
+                "category": "Plants",
+                "description": ""
+            },
+            {
+                "id": "tateman-LargeGreenGrass",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LargeGreenGrass.glb",
+                "name": "LargeGreenGrass",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LargeGreenGrass.png",
+                "category": "Plants",
+                "description": ""
+            },
+            {
+                "id": "tateman-LightGreenGrass",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LightGreenGrass.glb",
+                "name": "LightGreenGrass",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Plants/LightGreenGrass.png",
+                "category": "Plants",
+                "description": ""
+            },
+            {
+                "id": "tateman-TatemanVehicle",
+                "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Transportation/TatemanVehicle.glb",
+                "name": "TatemanVehicle",
+                "type": "model",
+                "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/tateman/Transportation/TatemanVehicle.png",
+                "category": "Transportation",
                 "description": ""
             }
         ],

@@ -1,158 +1,158 @@
 {
     "name": "Mysticons",
-    "image": "cdn://thumbnail.jpg",
+    "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/objecticon.png",
     "description": "",
     "buildobjects": [
         {
             "id": "myst-DropRing",
             "name": "DropRing",
-            "image": "cdn://Decoration/DropRing.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/DropRing.png",
             "description": "",
-            "url": "cdn://Decoration/DropRing.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/DropRing.glb",
             "type": "model",
             "category": "Decoration"
         },
         {
             "id": "myst-Key",
             "name": "Key",
-            "image": "cdn://Decoration/Key.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/Key.png",
             "description": "",
-            "url": "cdn://Decoration/Key.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/Key.glb",
             "type": "model",
             "category": "Decoration"
         },
         {
             "id": "myst-SwirlRing",
             "name": "SwirlRing",
-            "image": "cdn://Decoration/SwirlRing.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/SwirlRing.png",
             "description": "",
-            "url": "cdn://Decoration/SwirlRing.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/SwirlRing.glb",
             "type": "model",
             "category": "Decoration"
         },
         {
             "id": "myst-ThickRing",
             "name": "ThickRing",
-            "image": "cdn://Decoration/ThickRing.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/ThickRing.png",
             "description": "",
-            "url": "cdn://Decoration/ThickRing.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/ThickRing.glb",
             "type": "model",
             "category": "Decoration"
         },
         {
             "id": "myst-ThinRing",
             "name": "ThinRing",
-            "image": "cdn://Decoration/ThinRing.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/ThinRing.png",
             "description": "",
-            "url": "cdn://Decoration/ThinRing.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Decoration/ThinRing.glb",
             "type": "model",
             "category": "Decoration"
         },
         {
             "id": "myst-FloorLamp",
             "name": "FloorLamp",
-            "image": "cdn://Furniture/FloorLamp.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/FloorLamp.png",
             "description": "",
-            "url": "cdn://Furniture/FloorLamp.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/FloorLamp.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-GuestChair",
             "name": "GuestChair",
-            "image": "cdn://Furniture/GuestChair.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/GuestChair.png",
             "description": "",
-            "url": "cdn://Furniture/GuestChair.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/GuestChair.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-LongTable",
             "name": "LongTable",
-            "image": "cdn://Furniture/LongTable.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/LongTable.png",
             "description": "",
-            "url": "cdn://Furniture/LongTable.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/LongTable.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-MaterChair",
             "name": "MaterChair",
-            "image": "cdn://Furniture/MaterChair.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/MaterChair.png",
             "description": "",
-            "url": "cdn://Furniture/MaterChair.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/MaterChair.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-MysticonsMatt",
             "name": "MysticonsMatt",
-            "image": "cdn://Furniture/MysticonsMatt.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/MysticonsMatt.png",
             "description": "",
-            "url": "cdn://Furniture/MysticonsMatt.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/MysticonsMatt.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-SmallChair",
             "name": "SmallChair",
-            "image": "cdn://Furniture/SmallChair.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SmallChair.png",
             "description": "",
-            "url": "cdn://Furniture/SmallChair.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SmallChair.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-SwirlChair",
             "name": "SwirlChair",
-            "image": "cdn://Furniture/SwirlChair.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SwirlChair.png",
             "description": "",
-            "url": "cdn://Furniture/SwirlChair.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SwirlChair.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-SwirlTable",
             "name": "SwirlTable",
-            "image": "cdn://Furniture/SwirlTable.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SwirlTable.png",
             "description": "",
-            "url": "cdn://Furniture/SwirlTable.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Furniture/SwirlTable.glb",
             "type": "model",
             "category": "Furniture"
         },
         {
             "id": "myst-MysticonsBigPlant",
             "name": "MysticonsBigPlant",
-            "image": "cdn://Plants/MysticonsBigPlant.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Plants/MysticonsBigPlant.png",
             "description": "",
-            "url": "cdn://Plants/MysticonsBigPlant.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Plants/MysticonsBigPlant.glb",
             "type": "model",
             "category": "Plants"
         },
         {
             "id": "myst-MysticonsSmallPlant",
             "name": "SmallPlant",
-            "image": "cdn://Plants/MysticonsSmallPlant.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Plants/MysticonsSmallPlant.png",
             "description": "",
-            "url": "cdn://Plants/MysticonsSmallPlant.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Plants/MysticonsSmallPlant.glb",
             "type": "model",
             "category": "Plants"
         },
         {
             "id": "myst-MysticonsVehicle",
             "name": "Vehicle",
-            "image": "cdn://Transportation/MysticonsVehicle.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Transportation/MysticonsVehicle.png",
             "description": "",
-            "url": "cdn://Transportation/MysticonsVehicle.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Transportation/MysticonsVehicle.glb",
             "type": "model",
             "category": "Transportation"
         },
         {
             "id": "myst-Pet",
             "name": "BirdUnknown",
-            "image": "cdn://Pet/Pet.png",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Pet/Pet.png",
             "description": "",
-            "url": "cdn://Pet/Pet.glb",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/Pet/Pet.glb",
             "type": "model",
             "category": "Pet",
             "plugins": [
@@ -168,19 +168,19 @@
         },
         {
             "trait_type": "Model",
-            "value": "cdn://site.glb"
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/site.glb"
         },
         {
             "trait_type": "Skybox",
-            "value": "cdn://skybox.jpg"
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/skybox.jpg"
         },
         {
             "trait_type": "Thumbnail",
-            "value": "cdn://thumbnail.jpg"
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/objecticon.png"
         },
         {
             "trait_type": "Image",
-            "value": "cdn://image.jpg"
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/mysticons/image.jpg"
         }
     ]
 }

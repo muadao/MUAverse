@@ -1,0 +1,186 @@
+{
+    "name": "Mysticons",
+    "image": "cdn://thumbnail.jpg",
+    "description": "",
+    "buildobjects": [
+        {
+            "id": "myst-DropRing",
+            "name": "DropRing",
+            "image": "cdn://Decoration/DropRing.png",
+            "description": "",
+            "url": "cdn://Decoration/DropRing.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "myst-Key",
+            "name": "Key",
+            "image": "cdn://Decoration/Key.png",
+            "description": "",
+            "url": "cdn://Decoration/Key.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "myst-SwirlRing",
+            "name": "SwirlRing",
+            "image": "cdn://Decoration/SwirlRing.png",
+            "description": "",
+            "url": "cdn://Decoration/SwirlRing.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "myst-ThickRing",
+            "name": "ThickRing",
+            "image": "cdn://Decoration/ThickRing.png",
+            "description": "",
+            "url": "cdn://Decoration/ThickRing.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "myst-ThinRing",
+            "name": "ThinRing",
+            "image": "cdn://Decoration/ThinRing.png",
+            "description": "",
+            "url": "cdn://Decoration/ThinRing.glb",
+            "type": "model",
+            "category": "Decoration"
+        },
+        {
+            "id": "myst-FloorLamp",
+            "name": "FloorLamp",
+            "image": "cdn://Furniture/FloorLamp.png",
+            "description": "",
+            "url": "cdn://Furniture/FloorLamp.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-GuestChair",
+            "name": "GuestChair",
+            "image": "cdn://Furniture/GuestChair.png",
+            "description": "",
+            "url": "cdn://Furniture/GuestChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-LongTable",
+            "name": "LongTable",
+            "image": "cdn://Furniture/LongTable.png",
+            "description": "",
+            "url": "cdn://Furniture/LongTable.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-MaterChair",
+            "name": "MaterChair",
+            "image": "cdn://Furniture/MaterChair.png",
+            "description": "",
+            "url": "cdn://Furniture/MaterChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-MysticonsMatt",
+            "name": "MysticonsMatt",
+            "image": "cdn://Furniture/MysticonsMatt.png",
+            "description": "",
+            "url": "cdn://Furniture/MysticonsMatt.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-SmallChair",
+            "name": "SmallChair",
+            "image": "cdn://Furniture/SmallChair.png",
+            "description": "",
+            "url": "cdn://Furniture/SmallChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-SwirlChair",
+            "name": "SwirlChair",
+            "image": "cdn://Furniture/SwirlChair.png",
+            "description": "",
+            "url": "cdn://Furniture/SwirlChair.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-SwirlTable",
+            "name": "SwirlTable",
+            "image": "cdn://Furniture/SwirlTable.png",
+            "description": "",
+            "url": "cdn://Furniture/SwirlTable.glb",
+            "type": "model",
+            "category": "Furniture"
+        },
+        {
+            "id": "myst-MysticonsBigPlant",
+            "name": "MysticonsBigPlant",
+            "image": "cdn://Plants/MysticonsBigPlant.png",
+            "description": "",
+            "url": "cdn://Plants/MysticonsBigPlant.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "myst-MysticonsSmallPlant",
+            "name": "SmallPlant",
+            "image": "cdn://Plants/MysticonsSmallPlant.png",
+            "description": "",
+            "url": "cdn://Plants/MysticonsSmallPlant.glb",
+            "type": "model",
+            "category": "Plants"
+        },
+        {
+            "id": "myst-MysticonsVehicle",
+            "name": "Vehicle",
+            "image": "cdn://Transportation/MysticonsVehicle.png",
+            "description": "",
+            "url": "cdn://Transportation/MysticonsVehicle.glb",
+            "type": "model",
+            "category": "Transportation"
+        },
+        {
+            "id": "myst-Pet",
+            "name": "BirdUnknown",
+            "image": "cdn://Pet/Pet.png",
+            "description": "",
+            "url": "cdn://Pet/Pet.glb",
+            "type": "model",
+            "category": "Pet",
+            "plugins": [
+                "pet()"
+            ]
+        }
+    ],
+    "entities": [],
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Space"
+        },
+        {
+            "trait_type": "Model",
+            "value": "cdn://site.glb"
+        },
+        {
+            "trait_type": "Skybox",
+            "value": "cdn://skybox.jpg"
+        },
+        {
+            "trait_type": "Thumbnail",
+            "value": "cdn://thumbnail.jpg"
+        },
+        {
+            "trait_type": "Image",
+            "value": "cdn://image.jpg"
+        }
+    ]
+}

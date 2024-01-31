@@ -16,11 +16,11 @@
             "trait_type": "Skybox"
         },
         {
-            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Lamia.png",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/infinity_gate.png",
             "trait_type": "Thumbnail"
         },
         {
-            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/image.jpg",
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/infinity_gate.png",
             "trait_type": "Image"
         }
     ],

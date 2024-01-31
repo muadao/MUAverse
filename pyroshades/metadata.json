@@ -13,11 +13,11 @@
       "trait_type": "Skybox"
     },
     {
-      "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/objecticon.png",
+      "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/infinity_gate.png",
       "trait_type": "Thumbnail"
     },
     {
-      "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/pyroshades/image.jpg",
+      "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/infinity_gate.png",
       "trait_type": "Image"
     }
   ],

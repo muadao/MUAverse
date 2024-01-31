@@ -1,222 +1,439 @@
 {
     "name": "Lamia",
-    "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Lamia.png",
-    "description": "",
+    "description": "Mysterious Creative Species M Space: This space is adorned with bodily elements, a sacred place where inhabitants believe in the pursuit of ceaseless creation and find true rest in the extinguishing of life's flame.Probability of Acquisition: 23.75% ",
+    "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Lamia.png",
+    "attributes": [
+        {
+            "value": "Space",
+            "trait_type": "Type"
+        },
+        {
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/site.glb",
+            "trait_type": "Model"
+        },
+        {
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/skybox.jpg",
+            "trait_type": "Skybox"
+        },
+        {
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/Lamia.png",
+            "trait_type": "Thumbnail"
+        },
+        {
+            "value": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/image.jpg",
+            "trait_type": "Image"
+        }
+    ],
     "buildobjects": [
         {
             "id": "lamia-BlueSphere",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.glb",
             "name": "BlueSphere",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/BlueSphere.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/BlueSphere.glb",
             "type": "model",
-            "category": "Decoration"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.png",
+            "category": "Decoration",
+            "description": ""
         },
         {
             "id": "lamia-Gyro",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/Gyro.glb",
             "name": "Gyro",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/Gyro.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/Gyro.glb",
             "type": "model",
-            "category": "Decoration"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/Gyro.png",
+            "category": "Decoration",
+            "description": ""
         },
         {
             "id": "lamia-LamiaSemiSphere",
-            "name": "LamiaSemiSphere",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSemiSphere.png",
-            "description": "",
             "url": "",
+            "name": "LamiaSemiSphere",
             "type": "model",
-            "category": "Decoration"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSemiSphere.png",
+            "category": "Decoration",
+            "description": ""
         },
         {
             "id": "lamia-LamiaSphere",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSphere.glb",
             "name": "LamiaSphere",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSphere.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/LamiaSphere.glb",
             "type": "model",
-            "category": "Decoration"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/LamiaSphere.png",
+            "category": "Decoration",
+            "description": ""
         },
         {
             "id": "lamia-PinkSphere",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.glb",
             "name": "PinkSphere",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/PinkSphere.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Decoration/PinkSphere.glb",
             "type": "model",
-            "category": "Decoration"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.png",
+            "category": "Decoration",
+            "description": ""
         },
         {
             "id": "lamia-CafeTable",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CafeTable.glb",
             "name": "CafeTable",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CafeTable.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CafeTable.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CafeTable.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-CandleLight",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.glb",
             "name": "CandleLight",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CandleLight.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/CandleLight.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-Column",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Column.glb",
             "name": "Column",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Column.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Column.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Column.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-FloatingLoungeChair",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.glb",
             "name": "FloatingLoungeChair",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloatingLoungeChair.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloatingLoungeChair.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-FloorLamp",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.glb",
             "name": "FloorLamp",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloorLamp.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/FloorLamp.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-LamiaChair",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaChair.glb",
             "name": "LamiaChair",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaChair.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaChair.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaChair.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-LamiaFloorLight",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.glb",
             "name": "LamiaFloorLight",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaFloorLight.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaFloorLight.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-LamiaLoungeChair",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaLoungeChair.glb",
             "name": "LamiaLoungeChair",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaLoungeChair.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaLoungeChair.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaLoungeChair.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-LamiaOperationChair",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaOperationChair.glb",
             "name": "LamiaOperationChair",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaOperationChair.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/LamiaOperationChair.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaOperationChair.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-RoundPlatform",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.glb",
             "name": "RoundPlatform",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-RoundTable",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundTable.glb",
             "name": "RoundTable",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundPlatform.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/RoundTable.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-SideTable",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/SideTable.glb",
             "name": "SideTable",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/SideTable.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/SideTable.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/SideTable.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-Sofa",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Sofa.glb",
             "name": "Sofa",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Sofa.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Sofa.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Sofa.png",
+            "category": "Furniture",
+            "description": ""
         },
         {
             "id": "lamia-Vehicle",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Vehicle.glb",
             "name": "Vehicle",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Vehicle.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Furniture/Vehicle.glb",
             "type": "model",
-            "category": "Furniture"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/Vehicle.png",
+            "category": "Transportation",
+            "description": ""
         },
         {
             "id": "lamia-LamiaRabbit",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Pet/LamiaRabbit.glb",
             "name": "LamiaRabbit",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Pet/LamiaRabbit.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Pet/LamiaRabbit.glb",
             "type": "model",
-            "category": "Pet",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Pet/LamiaRabbit.png",
             "plugins": [
                 "pet()"
-            ]
+            ],
+            "category": "Pet",
+            "description": ""
         },
         {
             "id": "lamia-Stairs",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Utility/Stairs.glb",
             "name": "Stairs",
-            "image": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Utility/Stairs.png",
-            "description": "",
-            "url": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/Utility/Stairs.glb",
             "type": "model",
-            "category": "Utility"
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Utility/Stairs.png",
+            "category": "Facility",
+            "description": ""
         }
     ],
-    "entities": [],
-    "attributes": [
+    "entities": [
         {
-            "trait_type": "Type",
-            "value": "Space"
+            "id": "5LQ6fVyd",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.glb",
+            "name": "5LQ6fVyd",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
+            "scale": {
+                "x": 1.3066322803497314,
+                "y": 1.3066322803497314,
+                "z": 1.3066322803497314
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
+            "position": {
+                "x": 0.7554228901863098,
+                "y": -0.2660738229751587,
+                "z": 4.064467906951904
+            },
+            "rotation": {
+                "x": 0,
+                "y": 8.991066932678223,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
         },
         {
-            "trait_type": "Model",
-            "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/site.glb"
+            "id": "QMpy0ZS8",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.glb",
+            "name": "QMpy0ZS8",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
+            "scale": {
+                "x": 1.2399508953094482,
+                "y": 1.2399508953094482,
+                "z": 1.2399508953094482
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloatingLoungeChair.png",
+            "position": {
+                "x": -0.6234873533248901,
+                "y": -0.3780215382575989,
+                "z": -4.64345645904541
+            },
+            "rotation": {
+                "x": 0,
+                "y": 188.03640747070312,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
         },
         {
-            "trait_type": "Skybox",
-            "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/skybox.jpg"
+            "id": "tQesFmNn",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.glb",
+            "name": "tQesFmNn",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.png",
+            "scale": {
+                "x": 1.8367785215377808,
+                "y": 1.8367785215377808,
+                "z": 1.8367785215377808
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/LamiaFloorLight.png",
+            "position": {
+                "x": -4.334094047546387,
+                "y": -0.16115188598632812,
+                "z": 2.4123713970184326
+            },
+            "rotation": {
+                "x": 0,
+                "y": 305.1656494140625,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
         },
         {
-            "trait_type": "Thumbnail",
-            "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/Lamia.png"
+            "id": "3uUT8n54",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.glb",
+            "name": "3uUT8n54",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.png",
+            "scale": {
+                "x": 1.703183650970459,
+                "y": 1.703183650970459,
+                "z": 1.703183650970459
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/FloorLamp.png",
+            "position": {
+                "x": 3.352796792984009,
+                "y": -0.07354860007762909,
+                "z": 2.379079818725586
+            },
+            "rotation": {
+                "x": 0,
+                "y": 43.018089294433594,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
         },
         {
-            "trait_type": "Image",
-            "value": "https://muadao-activity.s3.ap-southeast-1.amazonaws.com/mua_resident/lamia/objecticon.png"
+            "id": "NIn7VXaf",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.glb",
+            "name": "NIn7VXaf",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.png",
+            "scale": {
+                "x": 2.131179094314575,
+                "y": 2.131179094314575,
+                "z": 2.131179094314575
+            },
+            "plugins": [],
+            "category": "Decoration",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/BlueSphere.png",
+            "position": {
+                "x": 1.9946491718292236,
+                "y": -0.09394501149654388,
+                "z": -4.771306037902832
+            },
+            "rotation": {
+                "x": 0,
+                "y": 27.630599975585938,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
+        },
+        {
+            "id": "M19sR0cl",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.glb",
+            "name": "M19sR0cl",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.png",
+            "scale": {
+                "x": 3.4429032802581787,
+                "y": 3.4429032802581787,
+                "z": 3.4429032802581787
+            },
+            "plugins": [],
+            "category": "Decoration",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Decoration/PinkSphere.png",
+            "position": {
+                "x": 3.7987961769104004,
+                "y": -0.22781790792942047,
+                "z": -3.991499185562134
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
+        },
+        {
+            "id": "hf5c86MB",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundTable.glb",
+            "name": "hf5c86MB",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
+            "scale": {
+                "x": 2.1575844287872314,
+                "y": 2.1575844287872314,
+                "z": 2.1575844287872314
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/RoundPlatform.png",
+            "position": {
+                "x": -0.048410579562187195,
+                "y": -1.3495688438415527,
+                "z": -0.3598792850971222
+            },
+            "rotation": {
+                "x": 0,
+                "y": 16.972074508666992,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
+        },
+        {
+            "id": "WsPVsURl",
+            "url": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.glb",
+            "name": "WsPVsURl",
+            "type": "model",
+            "image": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.png",
+            "scale": {
+                "x": 1.4706147909164429,
+                "y": 1.4706147909164429,
+                "z": 1.4706147909164429
+            },
+            "plugins": [],
+            "category": "Furniture",
+            "imageurl": "https://mua-resident-space.s3.ap-southeast-1.amazonaws.com/lamia/Furniture/CandleLight.png",
+            "position": {
+                "x": -2.5586466789245605,
+                "y": -1.1954014301300049,
+                "z": 0.1719616800546646
+            },
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "hovertext": "",
+            "nftmetadata": null
         }
     ]
 }
